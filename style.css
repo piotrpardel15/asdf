@@ -1,0 +1,51 @@
+body {
+    background-color: gray;
+}
+
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+.nav1 {
+    background-color: rgb(25, 146, 136);
+    height: 50px;
+}
+
+.nav2 {
+    color: white;
+    margin-left: 1.6rem;
+    display: inline-flex;
+    margin-top: 1rem;
+}
+
+.lista {
+    text-align: center;
+    margin-right: 41%;
+    margin-left: 41% ;
+    margin-top: 25px;
+    box-shadow: 4px 8px 12px 4px rgba(73, 59, 59, 0.849)
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    max-width: 1050px;
+    grid-gap: 6rem;
+    margin-left: 25px ;
+    margin-top: 25px;
+}
+
+.zxc {
+    text-align: center;
+    background-color: whitesmoke;
+    height: 125px;
+    width: 300px;
+    box-shadow: 1px 2px 4px 1px rgba(24, 23, 23, 0.849);
+}
+
+.book {
+    text-align: left;
+    color: red;
+}
+
